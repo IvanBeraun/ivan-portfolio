@@ -1,19 +1,35 @@
 console.log("Portafolio cargado correctamente");
 
-const openModal = document.getElementById("open-modal");
+const openModalGH = document.getElementById("open-modal-github");
+const openModalCorreo = document.getElementById("open-modal-correo");
 
-const closeModal = document.getElementById("close-modal");
+const closeModalGH = document.getElementById("close-modal-github");
+const closeModalCorreo = document.getElementById("close-modal-correo");
 
-const modal = document.getElementById("github-modal");
+const modalGH = document.getElementById("github-modal");
+const modalCorreo = document.getElementById("correo-modal");
 
-openModal.addEventListener("click", () => {
-
-    modal.style.display = "flex";
-
+openModalGH.addEventListener("click", () => {
+    modalGH.style.display = "flex";
 });
 
-closeModal.addEventListener("click", () => {
+closeModalGH.addEventListener("click", () => {
+    modalGH.style.display = "none";
+});
 
-    modal.style.display = "none";
+openModalCorreo.addEventListener("click", () => {
+    modalCorreo.style.display = "flex";
+});
 
+closeModalCorreo.addEventListener("click", () => {
+    modalCorreo.style.display = "none";
+});
+
+window.addEventListener("click", (event) => {
+    if (event.target === modalGH) {
+        modalGH.style.display = "none";
+    }
+    if (event.target === modalCorreo) {
+        modalCorreo.style.display = "none";
+    }
 });

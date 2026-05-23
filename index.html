@@ -55,13 +55,36 @@
         <div class="container">
             <h2 class="section-title">Habilidades</h2>
             <div class="skills-grid">
-                <div class="skill-card">HTML</div>
-                <div class="skill-card">CSS</div>
-                <div class="skill-card">JavaScript</div>
-                <div class="skill-card">Python</div>
-                <div class="skill-card">Java</div>
-                <div class="skill-card">MySQL</div>
-                <div class="skill-card">Spring Boot</div>
+                
+                <div class="skill-card">
+                    <img src="img/HTML5_logo.png" alt="HTML Logo" class="skill-icon">
+                    <p>HTML</p>
+                </div>
+                <div class="skill-card">
+                    <img src="img/css_logo.png" alt="CSS Logo" class="skill-icon">
+                    <p>CSS</p>
+                </div>
+                <div class="skill-card">
+                    <img src="img/JavaScript_logo.png" alt="JavaScript Logo" class="skill-icon">
+                    <p>JavaScript</p>
+                </div>
+                <div class="skill-card">
+                    <img src="img/Python_logo.png" alt="Python Logo" class="skill-icon">
+                    <p>Python</p>
+                </div>
+                <div class="skill-card">
+                    <img src="img/java_logo.png" alt="Java Logo" class="skill-icon">
+                    <p>Java</p>
+                </div>
+                <div class="skill-card">
+                    <img src="img/mysql_logo.png" alt="MySQL Logo" class="skill-icon">
+                    <p>MySQL</p>
+                </div>
+                <div class="skill-card">
+                    <img src="img/Spring_Boot_logo.png" alt="Spring Boot Logo" class="skill-icon">
+                    <p>Spring Boot</p>
+                </div>
+
             </div>
         </div>
     </section>
@@ -100,12 +123,39 @@
             <p>
                 Puede contactarme por correo o GitHub.
             </p>
-            <button id="open-modal" class="btn">
+            <button id="open-modal-correo" class="btn">
+                Correo
+            </button>
+            <button id="open-modal-github" class="btn">
                 GitHub
             </button>
         </div>
     </section>
 
+    <div id="correo-modal" class="modal">
+
+        <div class="modal-content">
+
+            <h2>Mi Correo</h2>
+
+            <p>
+                Puede contactarme por este correo: <br><br><span class="text-color-main">ivanberaun07@gmail.com</span> <br><br> O haga clic en el siguiente botón:
+            </p>
+
+            <a href="mailto:ivanberaun07@gmail.com" class="btn">
+                Enviar correo
+            </a>
+
+            <br>
+
+            <button id="close-modal-correo" class="btn close-btn">
+                Cerrar
+            </button>
+
+        </div>
+
+    </div>
+    
     <div id="github-modal" class="modal">
 
         <div class="modal-content">
@@ -122,7 +172,7 @@
 
             <br>
 
-            <button id="close-modal" class="btn close-btn">
+            <button id="close-modal-github" class="btn close-btn">
                 Cerrar
             </button>
 
