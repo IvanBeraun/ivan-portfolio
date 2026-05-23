@@ -28,7 +28,7 @@ section {
     padding: 100px 0;
 }
 
-/* hero */
+/*hero*/
 
 #hero {
     min-height: 100vh;
@@ -58,14 +58,16 @@ section {
     color: white;
     text-decoration: none;
     border-radius: 10px;
-    transition: 0.5s ease;
+    transition: all 0.5s ease;
 }
 
 .btn:hover {
     transform: translateY(-5px);
+    background-color: #6b47db;
+    box-shadow: 0 0 20px rgba(127, 90, 240, 0.5);
 }
 
-/* about */
+/*about*/
 
 .about-container {
     display: flex;
@@ -83,7 +85,7 @@ section {
     line-height: 1.8;
 }
 
-/* titles */
+/*titles*/
 
 .section-title {
     text-align: center;
@@ -91,7 +93,7 @@ section {
     font-size: 2.5rem;
 }
 
-/* skills */
+/*skills*/
 
 .skills-grid {
     display: grid;
@@ -111,7 +113,7 @@ section {
     transform: translateY(-10px);
 }
 
-/* proyectos */
+/*proyectos*/
 
 .projects-grid {
     display: grid;
@@ -130,13 +132,13 @@ section {
     transform: translateY(-10px);
 }
 
-/* contacto */
+/*contacto*/
 
 #contact {
     text-align: center;
 }
 
-/* modal */
+/*modal*/
 
 .modal {
     display: none;
@@ -163,7 +165,7 @@ section {
     margin-top: 20px;
 }
 
-/* responsive */
+/*responsive*/
 
 @media(max-width: 768px) {
     .hero-title {
