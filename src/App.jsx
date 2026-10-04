@@ -2,6 +2,9 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import About from './components/About'
 import Projects from './components/Projects'
+import Skills from './components/Skills'
+import Contact from './components/Contact'
+import Footer from './components/Footer'
 
 function App() {
     return (
@@ -14,13 +17,11 @@ function App() {
 
                 <Projects />
 
-                <section id="habilidades">
-                    <h2>Habilidades</h2>
-                </section>
+                <Skills />
 
-                <section id="contacto">
-                    <h2>Contacto</h2>
-                </section>
+                <Contact />
+                
+                <Footer />
             </main>
         </>
     )

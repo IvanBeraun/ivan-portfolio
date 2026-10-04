@@ -200,3 +200,142 @@ section {
     color: #b8b8b8;
     font-size: 0.8rem;
 }
+
+.skills-section {
+    padding: 100px 0;
+    background-color: #141414;
+}
+
+.skill-card {
+    height: 100%;
+    padding: 2rem;
+    border: 1px solid #2a2a2a;
+    border-radius: 12px;
+    background-color: #0f0f0f;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.skill-card:hover {
+    transform: translateY(-5px);
+    border-color: #7f5af0;
+}
+
+.skill-card-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.skill-card-header i {
+    font-size: 1.5rem;
+    color: #7f5af0;
+}
+
+.skill-card-header h3 {
+    margin: 0;
+    font-size: 1.25rem;
+}
+
+.skill-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+}
+
+.skill-list span {
+    padding: 0.45rem 0.8rem;
+    border: 1px solid #2a2a2a;
+    border-radius: 20px;
+    color: #b8b8b8;
+    font-size: 0.85rem;
+}
+
+.contact-section {
+    padding: 100px 0;
+    background-color: #0f0f0f;
+}
+
+.contact-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact-content .section-heading {
+    margin-bottom: 2rem;
+}
+
+.contact-description {
+    max-width: 650px;
+    margin: 0 auto 2.5rem;
+    color: #999;
+    line-height: 1.8;
+}
+
+.contact-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.contact-link {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    padding: 0.8rem 1.2rem;
+    border: 1px solid #2a2a2a;
+    border-radius: 8px;
+    color: #ffffff;
+    text-decoration: none;
+    transition: border-color 0.2s ease, color 0.2s ease,
+        transform 0.2s ease;
+}
+
+.contact-link:hover {
+    color: #7f5af0;
+    border-color: #7f5af0;
+    transform: translateY(-3px);
+}
+
+.contact-link i {
+    font-size: 1.1rem;
+}
+
+.footer {
+    padding: 1.5rem 0;
+    background-color: #080808;
+    border-top: 1px solid #202020;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.footer p {
+    margin: 0;
+    color: #777;
+    font-size: 0.85rem;
+}
+
+.footer a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #2a2a2a;
+    border-radius: 50%;
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.footer a:hover {
+    color: #7f5af0;
+    border-color: #7f5af0;
+}
