@@ -27,18 +27,21 @@ section {
 .hero-greeting {
     font-size: 1.2rem;
     margin-bottom: 0.5rem;
+    color: #b8b8b8;
 }
 
 .hero-title {
     font-size: clamp(3rem, 8vw, 6rem);
     font-weight: 700;
     margin-bottom: 0.5rem;
+    color: #ffffff;
 }
 
 .hero-subtitle {
     font-size: clamp(1.5rem, 4vw, 2.5rem);
     font-weight: 400;
     margin-bottom: 1.5rem;
+    color: #ffffff;
 }
 
 .hero-description {
@@ -80,6 +83,7 @@ section {
     font-size: clamp(2rem, 5vw, 3rem);
     font-weight: 700;
     margin: 0;
+    color: #ffffff;
 }
 
 .about-text {
@@ -114,10 +118,11 @@ section {
 .about-card-item h3 {
     font-size: 1rem;
     margin: 0 0 0.25rem;
+    color: #ffffff;
 }
 
 .about-card-item p {
-    color: #888;
+    color: #b8b8b8;
     margin: 0;
     font-size: 0.9rem;
 }
@@ -178,6 +183,7 @@ section {
 .project-card h3 {
     font-size: 1.7rem;
     margin-bottom: 1rem;
+    color: #ffffff;
 }
 
 .project-card p {
@@ -235,6 +241,7 @@ section {
 .skill-card-header h3 {
     margin: 0;
     font-size: 1.25rem;
+    color: #ffffff;
 }
 
 .skill-list {

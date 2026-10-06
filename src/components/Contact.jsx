@@ -11,7 +11,7 @@ function Contact() {
                     <p className="contact-description">
                         Si desea conocer más sobre mis proyectos o conversar
                         sobre alguna oportunidad, puede encontrarme en los
-                        siguientes medios.
+                        siguientes medios:
                     </p>
 
                     <div className="contact-links">

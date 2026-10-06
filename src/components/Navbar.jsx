@@ -4,7 +4,7 @@ function Navbar() {
             <div className="container">
 
                 <a className="navbar-brand fw-bold" href="#inicio">
-                    Ivan Beraun
+                    Portafolio
                 </a>
 
                 <button
