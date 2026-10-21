@@ -1,4 +1,4 @@
- const projects = [
+const projects = [
     {
         id: 1,
         name: 'ShopHub',
@@ -7,6 +7,11 @@
         technologies: ['React', 'JavaScript', 'CSS'],
         github: 'https://github.com/IvanBeraun/shop-hub',
         demo: 'https://shop-hub-ccf.pages.dev/',
+        images: [
+            '/projects/shophub/captura-1.png',
+            '/projects/shophub/captura-2.png',
+            '/projects/shophub/captura-3.png',
+        ],
     },
     {
         id: 2,
@@ -16,6 +21,11 @@
         technologies: ['React', 'JavaScript', 'CSS'],
         github: 'https://github.com/IvanBeraun/taskflow',
         demo: 'https://taskflow-1lg.pages.dev/',
+        images: [
+            '/projects/taskflow/captura-1.png',
+            '/projects/taskflow/captura-2.png',
+            '/projects/taskflow/captura-3.png',
+        ],
     },
 ]
 

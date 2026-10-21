@@ -10,8 +10,8 @@ function About() {
                 <div className="row align-items-center g-5">
                     <div className="col-lg-7">
                         <p className="about-text">
-                            Soy estudiante de Desarrollo de Software y me
-                            interesa la creación de aplicaciones que resuelvan
+                            Soy egresado de la carrera técnica de Desarrollo de Sistemas de Información 
+                            en IDAT y me interesa la creación de aplicaciones que resuelvan
                             problemas reales mediante la tecnología.
                         </p>
 

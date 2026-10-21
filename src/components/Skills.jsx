@@ -22,9 +22,24 @@ function Skills() {
 
                                 <div className="skill-list">
                                     {skill.technologies.map((technology) => (
-                                        <span key={technology}>
-                                            {technology}
-                                        </span>
+                                        <div
+                                            className={`skill-item ${
+                                                technology.image
+                                                    ? ''
+                                                    : 'skill-item-text'
+                                            }`}
+                                            key={technology.name}
+                                        >
+                                            {technology.image && (
+                                                <img
+                                                    src={technology.image}
+                                                    alt={`Logo de ${technology.name}`}
+                                                    loading="lazy"
+                                                />
+                                            )}
+
+                                            <span>{technology.name}</span>
+                                        </div>
                                     ))}
                                 </div>
 
